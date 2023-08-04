@@ -1,6 +1,6 @@
 # Spotify Song Clustering Analysis
 
-This project focuses on performing clustering analysis on the Spotify Million Dataset, which contains song names, artist names, links to the songs, and lyrics. The dataset can be utilized for song recommendations, song classification, and clustering songs based on their features.
+This project focuses on performing clustering analysis on the Spotify Million Dataset, which contains song names, artist names, links to the songs, and lyrics. The dataset can be utilized for song recommendations, song classification, and clustering of songs based on their features.
 
 ## Dataset
 
@@ -25,7 +25,7 @@ Text preprocessing is a crucial step before applying the KMeans clustering algor
 
 ## KMeans Clustering
 
-After text preprocessing, the KMeans clustering algorithm is applied to the transformed data. The following evaluation techniques are employed:
+After text preprocessing, the K-means clustering algorithm is applied to the transformed data. The following evaluation techniques are employed:
 
 - **Elbow Method**: Used to determine the optimal number of clusters by analyzing the inertia (within-cluster sum of squares) for different values of k.
 - **Silhouette Analysis**: A graphical tool to measure how tightly grouped the samples within each cluster are. The silhouette score ranges from -1 to 1, where higher values indicate better-defined clusters.
@@ -36,14 +36,16 @@ To determine the most representative words in each cluster, word clouds are gene
 
 ## Conclusion
 
-In this project, the KMeans clustering algorithm is applied to the Spotify Million Dataset for clustering analysis of songs. The text data is preprocessed to transform it into numerical features suitable for clustering. The optimal number of clusters is determined using the elbow method, and the tightness of the clusters is assessed using silhouette analysis. Finally, word clouds are generated to identify the most representative words in each cluster.
+In this project, the K-means clustering algorithm is applied to the Spotify Million Dataset for the clustering analysis of songs. The text data is preprocessed to transform it into numerical features suitable for clustering. The optimal number of clusters is determined using the elbow method, and the tightness of the clusters is assessed using silhouette analysis. Finally, word clouds are generated to identify the most representative words in each cluster.
+
+Medium Article - [Unraveling Spotify’s Music Universe: A Clustering Analysis Approach](https://medium.com/@betikuoluwatobi7/unraveling-spotifys-music-universe-a-clustering-analysis-approach-4e2faa17a8c1)
 
 ## Future Enhancements
 
 Potential future enhancements for this project include:
 
 - Exploring different clustering algorithms and comparing their performance.
-- Incorporating additional features such as song metadata or audio features for more comprehensive clustering analysis.
+- Incorporating additional features such as song metadata or audio features for a more comprehensive clustering analysis.
 - Developing a song recommendation system based on the clustering results.
 
-By continuously refining the clustering algorithms and incorporating additional features, this project aims to improve song recommendations, genre classification, and provide valuable insights into the Spotify music dataset.
+By continuously refining the clustering algorithms and incorporating additional features, this project aims to improve song recommendations, and genre classification, and provide valuable insights into the Spotify music dataset.
