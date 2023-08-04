@@ -38,7 +38,7 @@ To determine the most representative words in each cluster, word clouds are gene
 
 In this project, the K-means clustering algorithm is applied to the Spotify Million Dataset for the clustering analysis of songs. The text data is preprocessed to transform it into numerical features suitable for clustering. The optimal number of clusters is determined using the elbow method, and the tightness of the clusters is assessed using silhouette analysis. Finally, word clouds are generated to identify the most representative words in each cluster.
 
-Medium Article - [Unraveling Spotify’s Music Universe: A Clustering Analysis Approach](https://medium.com/@betikuoluwatobi7/unraveling-spotifys-music-universe-a-clustering-analysis-approach-4e2faa17a8c1)
+Medium Article - [Unraveling Spotify’s Music Universe: A Clustering Analysis Approach](https://medium.com/@betikuoluwatobi7/unraveling-spotifys-music-universe-a-clustering-analysis-approach-4e2faa17a8c1){:target="_blank"}
 
 ## Future Enhancements
 
